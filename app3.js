@@ -3,9 +3,9 @@
 
 //Task 01
 // function power(a,b){
-    
+
 //     console.log(Math.pow(a,b))
-    
+
 // }
 // power(2,3)
 
@@ -29,7 +29,7 @@
 //     var S = sParameter()
 //     var a, b, c
 //     S = S * (S-a) * (S-b) * (S-c)
-    
+
 //     console.log(S)
 // }
 // areaOfTri()
@@ -41,31 +41,104 @@
 // }
 
 //Task 04
-// function marks(){
+// var sub1 = prompt("Enter marks of subject 1 out of 100 ")
+// var sub2 = prompt("Enter marks of subject 2 out of 100 ")
+// var sub3 = prompt("Enter marks of subject 3 out of 100 ")
 
-//     var sub1 = prompt("Enter marks of subject 1 out of 100 ")
-//     var sub2 = prompt("Enter marks of subject 2 out of 100 ")
-//     var sub3 = prompt("Enter marks of subject 3 out of 100 ")
+// function marks() {
 
 //     console.log("The average marks is " + average())
-//     console.log("You got "+ percentage() + "%")
+//     console.log("You got " + percentage() + "%")
 
 // }
-// function average(){
-//     var averageMarks = (sub1 + sub2 +sub3)/3
+// marks()
+// function average() {
+//     sub1 = Number(sub1)
+//     sub2 = Number(sub2)
+//     sub3 = Number(sub3)
+
+//     var averageMarks = (sub1 + sub2 + sub3) /3
 //     return averageMarks
 // }
 
-// function percentage(){
-//     var overallPercentage = (300/(sub1 + sub2 + sub3)) *100
+// function percentage() {
+//     sub1 = Number(sub1)
+//     sub2 = Number(sub2)
+//     sub3 = Number(sub3)
+
+//     var overallPercentage = ((sub1 + sub2 + sub3) / 300) * 100
 //     return overallPercentage
 // }
 
 
+//Task 05
+
+// function findIndex(){
+//     var dummyText = "this is the dummy text"
+//     console.log(dummyText.length)
+
+//     var search = prompt("find the index of the given text at which index only for single character")
+//     for(var i=0; i<dummyText.length; i++){
+//         if(dummyText[i] === search){
+//             console.log(i)
+//             break;
+//         }
+//         else{
+//             console.log("No index found")
+//         } 
+//     }
+
+// }
+// findIndex()
+
+//Task 06
 
 
-//Task 02
-//Task 02
-//Task 02
-//Task 02
-//Task 02
+//Task 07
+// function vowels(){
+//     var text = "Pleases read this application and give me gratuity"
+//     var loop = 0
+//     switch(text.length){
+
+        
+//     }
+
+// }
+
+
+
+//Task 08
+// var distanceKm = prompt("Enter the distance from Karachi to Lahore in KM")
+
+// // function distance(){
+// //     console.log("Distance from karachi to lahore is "+ distanceInM() +" meters"+ distanceInFeet() +" ft"+distanceInInches()+" inch"+ distanceInCm()+" centimeter" )
+// // }
+
+// function distanceInM(){
+//     distanceM = distanceKm * 1000
+//     console.log("The distance from karachi to lahore is "+ distanceM +" meters")
+// }
+// distanceInM()
+
+// function distanceInFeet(){
+//     distanceFt = distanceKm * 3281
+//     console.log("The distance from karachi to lahore is "+ distanceFt +" ft")
+// }
+// distanceInFeet()
+
+// function distanceInInches(){
+//     distanceInches = distanceKm * 39370
+//     console.log("The distance from karachi to lahore is "+ distanceInches +" inch")
+// }
+// distanceInInches()
+
+// function distanceInCm(){
+//     distanceCm = distanceKm * 100000
+//     console.log("The distance from karachi to lahore is "+ distanceCm +" centimeter")
+// }
+// distanceInCm()
+
+
+//Task 09
+//Task 10
+
