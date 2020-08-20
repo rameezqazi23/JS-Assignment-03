@@ -1,4 +1,4 @@
-//CHAPTER 38 - 44
+//CHAPTER 38 - 42
 
 
 //Task 01
@@ -140,5 +140,28 @@
 
 
 //Task 09
+// function overTime(){
+//     var otHours = prompt("How many hours do you work? ")
+//     var otAmmount = 12
+//     if(otHours>40){
+//         otHours = otHours - 40
+//         var totalOtAmmount = otAmmount * otHours
+//         alert("Your Over time ammount will be "+ totalOtAmmount)
+//     }
+//     else{
+//         alert("Your over time ammount is zero")
+//     }
+// }
+
+// overTime()
+
+
 //Task 10
+
+
+//CHAPTER 43 - 48
+
+//Task 1 & 2
+//in html
+
 
